@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "StaticData/1.0.0": {
+        "dependencies": {
+          "BusinessModel": "1.0.0"
+        },
+        "runtime": {
+          "StaticData.dll": {}
+        }
+      },
+      "BusinessModel/1.0.0": {
+        "dependencies": {
+          "DataTransferModel": "1.0.0"
+        },
+        "runtime": {
+          "BusinessModel.dll": {}
+        }
+      },
+      "DataTransferModel/1.0.0": {
+        "runtime": {
+          "DataTransferModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StaticData/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BusinessModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataTransferModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

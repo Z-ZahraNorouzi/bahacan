@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nwGtxhGPOheYU8jjBLrJe3vDtHjjWQbFmcF+bwnvDI90EBb45nHRhMIEuhGVd6u4NuFZv6Lf7W0xFaJtusoZkw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Bahacan\\ExternalServices\\ExternalServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zahra\\.nuget\\packages\\payamakpanel.core\\1.0.0\\payamakpanel.core.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

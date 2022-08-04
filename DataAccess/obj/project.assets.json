@@ -1058,6 +1058,16 @@
           "bin/placeholder/BusinessModel.dll": {}
         }
       },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
       "DataTransferModel/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1066,6 +1076,19 @@
         },
         "runtime": {
           "bin/placeholder/DataTransferModel.dll": {}
+        }
+      },
+      "StaticData/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BusinessModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/StaticData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StaticData.dll": {}
         }
       }
     }
@@ -3640,10 +3663,20 @@
       "path": "../BusinessModel/BusinessModel.csproj",
       "msbuildProject": "../BusinessModel/BusinessModel.csproj"
     },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
     "DataTransferModel/1.0.0": {
       "type": "project",
       "path": "../DataTransfer/DataTransferModel.csproj",
       "msbuildProject": "../DataTransfer/DataTransferModel.csproj"
+    },
+    "StaticData/1.0.0": {
+      "type": "project",
+      "path": "../StaticData/StaticData.csproj",
+      "msbuildProject": "../StaticData/StaticData.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3652,13 +3685,13 @@
       "AutoMapper.EF6 >= 2.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "BusinessModel >= 1.0.0",
-      "D:\\Projects\\Bahacan\\Common\\Common.csproj",
-      "D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj",
+      "Common >= 1.0.0",
       "DataTransferModel >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.0-preview.1.22076.6",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0-preview.1.22076.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0-preview.1.22076.6",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0-preview.1.22076.6"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.0-preview.1.22076.6",
+      "StaticData >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3764,25 +3797,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\Common\\Common.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\Common\\Common.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

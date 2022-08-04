@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "INU6k7TNCJmdvj4QZBlMbF+aRSpqhxYNToOnhCFjBQDr5u69vbuO8+anSW47Ct0Rf4He56PCLVx/8zMhz8wHMQ==",
-  "success": false,
+  "dgSpecHash": "RGuSM8cMlKKE5syiqEYMllvXyzkBpSG0rKHru6D45nncvD6sVssmmCpwVn/DjwAMO5ltizEzWtK/Q+ql2dnEZQ==",
+  "success": true,
   "projectFilePath": "D:\\Projects\\Bahacan\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zahra\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
@@ -82,24 +82,5 @@
     "C:\\Users\\Zahra\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
     "C:\\Users\\Zahra\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\Common\\Common.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\Common\\Common.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

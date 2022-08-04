@@ -22,3 +22,15 @@ D:\Projects\TrPos\ViewModel\obj\Debug\net6.0\ViewModel.dll
 D:\Projects\TrPos\ViewModel\obj\Debug\net6.0\refint\ViewModel.dll
 D:\Projects\TrPos\ViewModel\obj\Debug\net6.0\ViewModel.pdb
 D:\Projects\TrPos\ViewModel\obj\Debug\net6.0\ref\ViewModel.dll
+D:\Projects\Bahacan\ViewModel\bin\Debug\net6.0\ViewModel.deps.json
+D:\Projects\Bahacan\ViewModel\bin\Debug\net6.0\ViewModel.dll
+D:\Projects\Bahacan\ViewModel\bin\Debug\net6.0\ViewModel.pdb
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.csproj.AssemblyReference.cache
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.AssemblyInfoInputs.cache
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.AssemblyInfo.cs
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.csproj.CoreCompileInputs.cache
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.dll
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\refint\ViewModel.dll
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ViewModel.pdb
+D:\Projects\Bahacan\ViewModel\obj\Debug\net6.0\ref\ViewModel.dll

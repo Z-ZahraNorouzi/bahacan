@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "BusinessModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DataTransferModel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessModel.dll": {}
+        }
+      },
+      "DataTransferModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataTransferModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataTransferModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessModel/1.0.0": {
+      "type": "project",
+      "path": "../BusinessModel/BusinessModel.csproj",
+      "msbuildProject": "../BusinessModel/BusinessModel.csproj"
+    },
+    "DataTransferModel/1.0.0": {
+      "type": "project",
+      "path": "../DataTransfer/DataTransferModel.csproj",
+      "msbuildProject": "../DataTransfer/DataTransferModel.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BusinessModel >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Zahra\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj",
+      "projectName": "StaticData",
+      "projectPath": "D:\\Projects\\Bahacan\\StaticData\\StaticData.csproj",
+      "packagesPath": "C:\\Users\\Zahra\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Bahacan\\StaticData\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Zahra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\Bahacan\\BusinessModel\\BusinessModel.csproj": {
+              "projectPath": "D:\\Projects\\Bahacan\\BusinessModel\\BusinessModel.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

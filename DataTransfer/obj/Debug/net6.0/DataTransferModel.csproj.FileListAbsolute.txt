@@ -22,3 +22,15 @@ D:\Projects\TrPos\DataTransfer\obj\Debug\net6.0\DataTransferModel.dll
 D:\Projects\TrPos\DataTransfer\obj\Debug\net6.0\refint\DataTransferModel.dll
 D:\Projects\TrPos\DataTransfer\obj\Debug\net6.0\DataTransferModel.pdb
 D:\Projects\TrPos\DataTransfer\obj\Debug\net6.0\ref\DataTransferModel.dll
+D:\Projects\Bahacan\DataTransfer\bin\Debug\net6.0\DataTransferModel.deps.json
+D:\Projects\Bahacan\DataTransfer\bin\Debug\net6.0\DataTransferModel.dll
+D:\Projects\Bahacan\DataTransfer\bin\Debug\net6.0\DataTransferModel.pdb
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.csproj.AssemblyReference.cache
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.AssemblyInfoInputs.cache
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.AssemblyInfo.cs
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.csproj.CoreCompileInputs.cache
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.dll
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\refint\DataTransferModel.dll
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\DataTransferModel.pdb
+D:\Projects\Bahacan\DataTransfer\obj\Debug\net6.0\ref\DataTransferModel.dll

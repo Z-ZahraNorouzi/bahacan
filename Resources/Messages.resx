@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountNumberIsCorrect" xml:space="preserve">
+    <value>شماره حساب صحیح میباشد</value>
+  </data>
+  <data name="AccountNumberIsInCorrect" xml:space="preserve">
+    <value>شماره حساب متعلق به شخص مورد نظر نیست</value>
+  </data>
+  <data name="AccountNumberMustBeNotDuplicate" xml:space="preserve">
+    <value>شماره حساب نباید تکراری وارد شود</value>
+  </data>
+  <data name="AccountSearchPersons" xml:space="preserve">
+    <value>برای جستجوی اشخاص  نام یا نام خانوادگی یا عنوان یا کد ملی و یا شناسه ملی شرکت را وارد نمایید</value>
+  </data>
+  <data name="AddressMustBeShaparak" xml:space="preserve">
+    <value>آدرس باید قالب شاپرکی داشته باشد</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>آیا از حذف اطلاعات اطمینان دارید؟</value>
+  </data>
+  <data name="AServerErrorOccurred" xml:space="preserve">
+    <value>خطایی در سرور رخ داده است.</value>
+  </data>
+  <data name="CanNotBeEditInConfirmed" xml:space="preserve">
+    <value>به دلیل در وضعیت تایید بودن قابل ویرایش نیست</value>
+  </data>
+  <data name="CertificateOwnerMustHaveOneAddressCategory" xml:space="preserve">
+    <value>صاحب امتیاز باید حداقل یک آدرس "{0}" داشته باشد</value>
+  </data>
+  <data name="CertificateOwnerMustHaveOnePhoneType" xml:space="preserve">
+    <value>صاحب امتیاز باید حداقل یک تلفن "{0}" داشته باشد</value>
+  </data>
+  <data name="Click" xml:space="preserve">
+    <value>کلیک کنید.</value>
+  </data>
+  <data name="ClickForShowError" xml:space="preserve">
+    <value>برای نمایش جزئیات خطا کلیک کنید.</value>
+  </data>
+  <data name="ColoredItemsHasErrorsInAssignments" xml:space="preserve">
+    <value>آیتم هایی که با رنگ قرمز مشخص شده اند، از نظر تعداد تخصیص داده شده دارای اشکال می باشند</value>
+  </data>
+  <data name="ConfirmPasswordIncorrect" xml:space="preserve">
+    <value>رمز عبور و تایید رمزعبور یکسان نیستند</value>
+  </data>
+  <data name="CorrectReportedErrors" xml:space="preserve">
+    <value>خطاهای گزارش شده را برطرف نمایید</value>
+  </data>
+  <data name="DataIsDeleted" xml:space="preserve">
+    <value>اطلاعات حذف گردید</value>
+  </data>
+  <data name="DeleteWithTitle" xml:space="preserve">
+    <value>آیا از حذف «{title}» اطمینان دارید؟</value>
+  </data>
+  <data name="DoubleClickOnRowsToAssignPersons" xml:space="preserve">
+    <value>برای انتساب اشخاص به پست های سازمانی بر روی سطر مورد دابل کلیک کرده یا روی عنوان پست کلیک کنید </value>
+  </data>
+  <data name="ExportFieldsHelp" xml:space="preserve">
+    <value>مشخصه هایی را که میخواهید در فایل خروجی وجود داشته باشند، با زدن تیک مشخص کنید</value>
+  </data>
+  <data name="ExportMultiValueHelp" xml:space="preserve">
+    <value>نحوه نمایش مشخصه هایی را که ممکن است چند مقدار داشته باشند، با انتخاب «جداساز» یا «سطرهای جدا» مشخص کنید</value>
+  </data>
+  <data name="ExportReOrderHelp" xml:space="preserve">
+    <value>به وسیله فلشها ترتیب نمایش مشخصه ها در خروجی را مشخص کنید</value>
+  </data>
+  <data name="FindSimilarTrust" xml:space="preserve">
+    <value>پیدا کردن ودیعه های مشابه</value>
+  </data>
+  <data name="HasError" xml:space="preserve">
+    <value>خطایی رخ داده است</value>
+  </data>
+  <data name="ICantLogin" xml:space="preserve">
+    <value>نمیتوانم وارد حسابم شوم!!</value>
+  </data>
+  <data name="MerchantCategorySelectionHelp" xml:space="preserve">
+    <value>لطفا سطح آخر را انتخاب نمایید که با رنگ سبز مشخص شده اند.</value>
+  </data>
+  <data name="MerchantMustHaveOneAddressCategory" xml:space="preserve">
+    <value>پذیرنده باید حداقل یک آدرس "{0}" داشته باشد</value>
+  </data>
+  <data name="MerchantMustHaveOnePhoneType" xml:space="preserve">
+    <value>پذیرنده باید حداقل یک تلفن "{0}" داشته باشد</value>
+  </data>
+  <data name="MustHave" xml:space="preserve">
+    <value>باید حداقل یک "{0}" داشته باشد</value>
+  </data>
+  <data name="MustHaveOneAddressCategory" xml:space="preserve">
+    <value>{1} باید حداقل یک آدرس "{0}" داشته باشد</value>
+  </data>
+  <data name="MustHaveOnePhoneType" xml:space="preserve">
+    <value>{1} باید حداقل یک تلفن "{0}" داشته باشد</value>
+  </data>
+  <data name="NotDefinePermission" xml:space="preserve">
+    <value>مجوزی تعریف نشده است</value>
+  </data>
+  <data name="NotSelectedPerson" xml:space="preserve">
+    <value>شخصی انتخاب نشده است</value>
+  </data>
+  <data name="RequestSumbited" xml:space="preserve">
+    <value>درخواست با کدرهگیری: {0} ثبت شد</value>
+  </data>
+  <data name="SuccessSent" xml:space="preserve">
+    <value>ارسال با موفقیت انجام شد</value>
+  </data>
+  <data name="UsedByPersonMustHaveOneAddressCategory" xml:space="preserve">
+    <value>استفاده کننده باید حداقل یک آدرس "{0}" داشته باشد</value>
+  </data>
+  <data name="UsedByPersonMustHaveOnePhoneType" xml:space="preserve">
+    <value>استفاده کننده باید حداقل یک تلفن "{0}" داشته باشد</value>
+  </data>
+  <data name="WebsiteMustHaveOwner" xml:space="preserve">
+    <value>وبسایت مورد نظر حتما باید صاحب امتیاز داشته باشد</value>
+  </data>
+  <data name="WrongNationalCode" xml:space="preserve">
+    <value>کد ملی صحیح نیست</value>
+  </data>
+  <data name="YouHaveTerminalOnAssignment" xml:space="preserve">
+    <value>شما {0} ترمینال آماده برای انتساب قرارداد دارید</value>
+  </data>
+  <data name="YouHaveTerminalOnReviewNeeded" xml:space="preserve">
+    <value>شما {0} ترمینال در وضعیت نیاز به بررسی دارید</value>
+  </data>
+  <data name="YouMustSlectOneFacility" xml:space="preserve">
+    <value>حد اقل یک قابلیت باید انتخاب گردد</value>
+  </data>
+  <data name="YouMustSlectOneRow" xml:space="preserve">
+    <value>یک ردیف را انتخاب کنید</value>
+  </data>
+</root>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BusinessModel/1.0.0": {
+        "dependencies": {
+          "DataTransferModel": "1.0.0"
+        },
+        "runtime": {
+          "BusinessModel.dll": {}
+        }
+      },
+      "DataTransferModel/1.0.0": {
+        "runtime": {
+          "DataTransferModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BusinessModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataTransferModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "41Fg4UUtAbvV++hIxemgpNXez3JRr/+nwTEDmfhu4c6j5WQ4yXhqe8bRdi9Piz5ejoxqSZ5Oe7u25upfixkW+Q==",
+  "dgSpecHash": "AKJLArbh+K138gTEYjIADfyn+5Das3EbCQyxn6wHefF3k2g+mtlH41Rnv1n3vx9WWiLFRqpcL0gdC7SuvaEggw==",
   "success": false,
   "projectFilePath": "D:\\Projects\\Bahacan\\Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -151,15 +151,6 @@
       "level": "Error",
       "message": "Unable to find project 'D:\\Projects\\Bahacan\\Resources\\Resources.csproj'. Check that the project reference is valid and that the project file exists.",
       "libraryId": "D:\\Projects\\Bahacan\\Resources\\Resources.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\ViewModel\\ViewModel.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\ViewModel\\ViewModel.csproj",
       "targetGraphs": [
         "net6.0"
       ]

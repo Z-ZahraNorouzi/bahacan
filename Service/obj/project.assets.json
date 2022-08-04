@@ -2103,6 +2103,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ViewModel.dll": {}
+        }
       }
     }
   },
@@ -7238,6 +7248,11 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../ViewModel/ViewModel.csproj",
+      "msbuildProject": "../ViewModel/ViewModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7246,12 +7261,12 @@
       "D:\\Projects\\Bahacan\\Exceptions\\Exceptions.csproj",
       "D:\\Projects\\Bahacan\\ExternalServices\\ExternalServices.csproj",
       "D:\\Projects\\Bahacan\\Resources\\Resources.csproj",
-      "D:\\Projects\\Bahacan\\ViewModel\\ViewModel.csproj",
       "Microsoft.EntityFrameworkCore >= 7.0.0-preview.1.22076.6",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0-preview.1.22076.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.0-preview.1.22076.6",
       "MySql.Data.EntityFrameworkCore >= 8.0.22",
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "ViewModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7369,15 +7384,6 @@
       "level": "Error",
       "message": "Unable to find project 'D:\\Projects\\Bahacan\\Resources\\Resources.csproj'. Check that the project reference is valid and that the project file exists.",
       "libraryId": "D:\\Projects\\Bahacan\\Resources\\Resources.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\ViewModel\\ViewModel.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\ViewModel\\ViewModel.csproj",
       "targetGraphs": [
         "net6.0"
       ]

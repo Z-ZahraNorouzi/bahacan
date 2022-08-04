@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Service", "1.Service", "{61B47C9C-7738-45E2-9199-B29D277C99EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "..\TrPos\Service\Service.csproj", "{18577C8E-0AD4-4183-B337-5D5437272545}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18577C8E-0AD4-4183-B337-5D5437272545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18577C8E-0AD4-4183-B337-5D5437272545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18577C8E-0AD4-4183-B337-5D5437272545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18577C8E-0AD4-4183-B337-5D5437272545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18577C8E-0AD4-4183-B337-5D5437272545} = {61B47C9C-7738-45E2-9199-B29D277C99EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64490061-4572-4858-9285-DE9296D87755}

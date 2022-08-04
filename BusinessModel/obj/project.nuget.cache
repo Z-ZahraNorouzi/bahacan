@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nEqlIFxWqOhRvSdmkzn5/j4icnkiFK/Rp+D/DFfGwktS3woDam0TUSKwZX/OTAxz0ORT29xyX4yJXOrc77uSUg==",
-  "success": false,
+  "dgSpecHash": "WMYemk0EgV3igOZBsvrLILJ3A9GEMsxD2V2DB6Rn4TDVRd8IzN5t+gLJ9hehpRHc7YkMXWBlKXqgn3boMlLPJQ==",
+  "success": true,
   "projectFilePath": "D:\\Projects\\Bahacan\\BusinessModel\\BusinessModel.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\DataTransfer\\DataTransferModel.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\DataTransfer\\DataTransferModel.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

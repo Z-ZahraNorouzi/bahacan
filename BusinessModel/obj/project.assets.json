@@ -1,12 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "DataTransferModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataTransferModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataTransferModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DataTransferModel/1.0.0": {
+      "type": "project",
+      "path": "../DataTransfer/DataTransferModel.csproj",
+      "msbuildProject": "../DataTransfer/DataTransferModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "D:\\Projects\\Bahacan\\DataTransfer\\DataTransferModel.csproj"
+      "DataTransferModel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -69,16 +86,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\Projects\\Bahacan\\DataTransfer\\DataTransferModel.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\Projects\\Bahacan\\DataTransfer\\DataTransferModel.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
